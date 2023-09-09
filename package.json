@@ -1,0 +1,11 @@
+{
+  "name": "curso-api-rest-javascript",
+  "version": "1.0.0",
+  "description": "Curso practico de consumo de API REST con Javascript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
