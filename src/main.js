@@ -1,4 +1,3 @@
-
 const api = axios.create({
     baseURL : 'https://api.themoviedb.org/3/',
     headers: {
@@ -40,7 +39,6 @@ async function getCategoriesPreview(){
     const categories = data.genres;
 
     categories.forEach(category => {
-
         const categoriesPreviewList = document.querySelector('#categoriesPreview .categoriesPreview-list')
 
         const categoryContainer = document.createElement('div');
@@ -59,3 +57,6 @@ async function getCategoriesPreview(){
    
 }
 
+
+getTrendingMoviesPreview();
+getCategoriesPreview();
