@@ -138,6 +138,6 @@ function trendsPage(){
     genericSection.classList.remove('inactive');
     movieDetailSection.classList.add('inactive');
 
-    headerCategoryTitle.innerHTML = 'Tendencias'
+    headerCategoryTitle.innerHTML = 'Tendencias';
     getTrendingMovies();
 }
